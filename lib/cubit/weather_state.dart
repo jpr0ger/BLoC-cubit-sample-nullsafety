@@ -9,7 +9,6 @@ class WeatherInitial extends WeatherState {
   const WeatherInitial();
 }
 
-
 class WeatherLoading extends WeatherState {
   const WeatherLoading();
 }
@@ -43,4 +42,3 @@ class WeatherError extends WeatherState {
   @override
   int get hashCode => message.hashCode;
 }
-
