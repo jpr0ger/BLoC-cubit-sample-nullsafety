@@ -5,8 +5,8 @@ class Weather {
   final double temperatureCelsius;
 
   Weather({
-    @required this.cityName,
-    @required this.temperatureCelsius,
+    required this.cityName,
+    required this.temperatureCelsius,
   });
 
   @override
